@@ -1,3 +1,55 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
 html{
     font-family: 'Fredoka', sans-serif;
+    font-size: 100%;
 }
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    /* da eliminare */
+    border: 10px solid red;
+}
+
+.col{
+    width: calc(100% / 3);
+    float: left;
+    text-align: center;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* MAIN */
+
+h1{
+   color: brown; 
+   text-align: center;
+   padding-bottom: 2rem;
+   font-size: 2rem;
+}
+
+p{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+img{
+    height: 100px;
+}
+
+
+
