@@ -14,7 +14,7 @@ html{
 }
 
 .container{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 2rem;
     /* da eliminare */
@@ -27,7 +27,7 @@ html{
     text-align: center;
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -48,9 +48,10 @@ p{
 
 
 img{
-    height: 100px;
+    width: 100px;
 }
 
 .testo{
     float: right;
+    
 }
